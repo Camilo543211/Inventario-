@@ -1,0 +1,17 @@
+.Color {
+    background-color: antiquewhite;
+    
+
+}
+
+.Center {
+    margin-top: 50px;
+   margin-left: 200px;
+   margin-right: 200px;
+   background-color: black;
+}
+.Option {
+   position:relative ;
+   left: 65%;
+   
+}
