@@ -49,7 +49,7 @@ class Zapatos extends React.Component {
     }
 
      saveValueFB() {
-        return  db.collection("zapatos").add({
+        return  db.collection("REGISTRO").add({
             talla: this.state.talla,
             cantidad: this.state.cantidad,
             marca: this.state.marca,

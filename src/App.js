@@ -27,6 +27,7 @@ function App() {
        <Switch>
          <Route path="/" component={ListMovie} exact/>
          <Route path="/zapatos" component={Zapatos}/>
+         <Route path="misDatos" children={<MisDatos/> }  />
   <Route path="/obtenerdatos/:tipo/:talla/:cantidad/:marca" children={<MisDatos/> } component={MisDatos}/>
        </Switch>
 

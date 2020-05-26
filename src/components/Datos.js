@@ -15,6 +15,7 @@ export default function MisDatos(props) {
                 <Table>
                     <TableHead>
                         <TableRow>
+                        <TableCell>#</TableCell>
                         <TableCell>tipo</TableCell>
                             <TableCell>Talla</TableCell>
                             <TableCell>Cantidad</TableCell>
@@ -26,6 +27,7 @@ export default function MisDatos(props) {
                    
                        
                            <TableRow>
+                           <TableCell>1</TableCell>   
                            <TableCell>{tipo}</TableCell>
                                <TableCell>{talla} </TableCell>
                                <TableCell>{cantidad}</TableCell>
